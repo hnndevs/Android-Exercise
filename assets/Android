@@ -1,8 +1,32 @@
-http://developer.android.com/guide/index.html
-1. Activity
-2. Fragment
-3. List View
-4. Grid View
-5. Action Bar
-6. Menu
-7. Dialogs
+http://developer.android.com/guide/index.html  - api documentation
+http://www.genymotion.com/  - fast emulator
+
+Basic:
+- Activity
+- Fragments
+- Simple animations
+- ListView (Vertical / Horizontal)
+- ViewPager
+- NavigationDrawer
+- Dialogs
+- ActionBar
+- Components
+- Custom components
+
+Advanced:
+- Supporting multiple screens
+- SurfaceView - drawing with Canvas
+- Gesture detectors
+- Advanced animations
+- RAM inspection
+- Google services
+- Game engines
+
+Extra:
+- Drag and drop
+- Notifications
+- Services
+- Menu
+- Audio
+- Video
+- Widgets
