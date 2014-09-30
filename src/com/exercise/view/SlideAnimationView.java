@@ -1,6 +1,7 @@
 package com.exercise.view;
 
 import com.exercise.androidExercise.R;
+import com.exercise.view.slidingtabs.SlidingTabView;
 
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -25,7 +26,7 @@ public class SlideAnimationView extends AbstractView {
 
 			@Override
 			public void onClick(View v) {
-				openView(ViewPagerView.class);
+				openView(SlidingTabView.class);
 			};
 		});
 	}
