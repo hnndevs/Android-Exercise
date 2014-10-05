@@ -8,8 +8,12 @@ import android.support.v4.app.FragmentTransaction;
 
 import com.exercise.androidExercise.R;
 import com.exercise.view.AbstractView;
-import com.exercise.view.SlideAnimationView;
+import com.exercise.view.HomeView;
 
+/**
+ * This activity currently holds only a single fragment. Manipulating multiple
+ * fragments is a heavy task and will be done later.
+ */
 public class DispatcherActivity extends FragmentActivity implements
 		ActivityCallback {
 
@@ -23,7 +27,7 @@ public class DispatcherActivity extends FragmentActivity implements
 	private void createView() {
 		FragmentManager fm = getSupportFragmentManager();
 		FragmentTransaction ft = fm.beginTransaction();
-		ft.replace(R.id.fragment_container, new SlideAnimationView());
+		ft.replace(R.id.fragment_container, new HomeView());
 		ft.commit();
 		fm.executePendingTransactions();
 	}

@@ -3,7 +3,6 @@ package com.exercise.view.slidingtabs;
 import android.graphics.Color;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
@@ -12,14 +11,22 @@ import com.exercise.androidExercise.R;
 import com.exercise.view.AbstractView;
 import com.exercise.view.slidingtabs.SlidingTabLayout.TabColorizer;
 
+/**
+ * Guide: https://www.youtube.com/watch?v=tRg_eDfQ8fk
+ */
 public class SlidingTabView extends AbstractView {
 	private ViewPager mViewPager;
 	private ViewPagerAdapter mPagerAdapter;
 	private SlidingTabLayout mSlidingTabLayout;
 
 	@Override
+	protected boolean isViewScrollable() {
+		return false;
+	}
+
+	@Override
 	protected int getViewLayoutId() {
-		return R.layout.view_sliding_tab;
+		return R.layout.sliding_tab_view;
 	}
 
 	@Override
@@ -78,8 +85,7 @@ public class SlidingTabView extends AbstractView {
 
 		@Override
 		public Object instantiateItem(ViewGroup container, int position) {
-			LayoutInflater inflater = LayoutInflater.from(getActivity());
-			View page = inflater.inflate(R.layout.view_pager_item, null);
+			View page = mLayoutInflater.inflate(R.layout.view_pager_item, null);
 			TextView text = (TextView) page
 					.findViewById(R.id.view_pager_item_tv);
 			text.setText("Page " + (position + 1));
