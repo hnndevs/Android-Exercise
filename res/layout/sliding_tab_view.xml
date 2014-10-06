@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <com.exercise.view.slidingtabs.SlidingTabLayout
+    <com.training.view.slidingtabs.SlidingTabLayout
         android:id="@+id/sliding_tab"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

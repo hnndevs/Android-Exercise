@@ -1,6 +1,6 @@
-package com.exercise.activity;
+package com.training.activity;
 
-import com.exercise.androidExercise.R;
+import com.training.android.R;
 
 import android.app.Activity;
 import android.content.Intent;

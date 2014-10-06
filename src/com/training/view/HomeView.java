@@ -1,4 +1,4 @@
-package com.exercise.view;
+package com.training.view;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,9 +9,9 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.exercise.androidExercise.R;
-import com.exercise.view.navigationdrawer.NavigationDrawerView;
-import com.exercise.view.slidingtabs.SlidingTabView;
+import com.training.android.R;
+import com.training.view.navigationdrawer.NavigationDrawerView;
+import com.training.view.slidingtabs.SlidingTabView;
 
 public class HomeView extends AbstractView {
 	private ListView mListView;

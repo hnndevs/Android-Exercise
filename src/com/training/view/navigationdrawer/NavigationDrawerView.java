@@ -1,4 +1,4 @@
-package com.exercise.view.navigationdrawer;
+package com.training.view.navigationdrawer;
 
 import android.support.v4.widget.DrawerLayout;
 import android.view.View;
@@ -9,8 +9,8 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.exercise.androidExercise.R;
-import com.exercise.view.AbstractView;
+import com.training.android.R;
+import com.training.view.AbstractView;
 
 /**
  * Guide:

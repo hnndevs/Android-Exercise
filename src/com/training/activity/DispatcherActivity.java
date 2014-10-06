@@ -1,4 +1,4 @@
-package com.exercise.activity;
+package com.training.activity;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -6,9 +6,9 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 
-import com.exercise.androidExercise.R;
-import com.exercise.view.AbstractView;
-import com.exercise.view.HomeView;
+import com.training.android.R;
+import com.training.view.AbstractView;
+import com.training.view.HomeView;
 
 /**
  * This activity currently holds only a single fragment. Manipulating multiple

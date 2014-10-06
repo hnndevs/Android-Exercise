@@ -1,4 +1,4 @@
-package com.exercise.view;
+package com.training.view;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -8,8 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
-import com.exercise.activity.ActivityCallback;
-import com.exercise.androidExercise.R;
+import com.training.activity.ActivityCallback;
+import com.training.android.R;
 
 /**
  * An abstract class which contains common logic for all views in this project.

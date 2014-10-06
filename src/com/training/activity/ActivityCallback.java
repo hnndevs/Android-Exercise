@@ -1,6 +1,6 @@
-package com.exercise.activity;
+package com.training.activity;
 
-import com.exercise.view.AbstractView;
+import com.training.view.AbstractView;
 
 /**
  * An interface for communication between Activities and Fragments.

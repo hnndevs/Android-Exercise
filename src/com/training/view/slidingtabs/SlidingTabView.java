@@ -1,4 +1,4 @@
-package com.exercise.view.slidingtabs;
+package com.training.view.slidingtabs;
 
 import android.graphics.Color;
 import android.support.v4.view.PagerAdapter;
@@ -7,9 +7,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.exercise.androidExercise.R;
-import com.exercise.view.AbstractView;
-import com.exercise.view.slidingtabs.SlidingTabLayout.TabColorizer;
+import com.training.android.R;
+import com.training.view.AbstractView;
+import com.training.view.slidingtabs.SlidingTabLayout.TabColorizer;
 
 /**
  * Guide: https://www.youtube.com/watch?v=tRg_eDfQ8fk
