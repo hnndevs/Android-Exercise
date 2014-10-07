@@ -9,7 +9,7 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.training.android.R;
+import com.training.R;
 import com.training.view.AbstractView;
 
 /**

@@ -9,7 +9,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.training.android.R;
+import com.training.R;
 import com.training.view.navigationdrawer.NavigationDrawerView;
 import com.training.view.slidingtabs.SlidingTabView;
 

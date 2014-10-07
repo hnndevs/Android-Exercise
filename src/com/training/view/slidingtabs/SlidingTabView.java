@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.training.android.R;
+import com.training.R;
 import com.training.view.AbstractView;
 import com.training.view.slidingtabs.SlidingTabLayout.TabColorizer;
 

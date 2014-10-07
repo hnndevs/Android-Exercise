@@ -6,7 +6,7 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 
-import com.training.android.R;
+import com.training.R;
 import com.training.view.AbstractView;
 import com.training.view.HomeView;
 

@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-import com.training.android.R;
+import com.training.R;
 import com.training.view.dialog.BaseDialog;
 import com.training.view.dialog.BaseDialog.OnDialogClickListener;
 

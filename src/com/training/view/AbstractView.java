@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.training.activity.ActivityCallback;
-import com.training.android.R;
+import com.training.R;
 
 /**
  * An abstract class which contains common logic for all views in this project.

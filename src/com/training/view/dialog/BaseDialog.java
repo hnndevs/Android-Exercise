@@ -9,7 +9,7 @@ import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
 import android.view.WindowManager.LayoutParams;
 
-import com.training.android.R;
+import com.training.R;
 
 /**
  * Guide: http://developer.android.com/guide/topics/ui/dialogs.html
