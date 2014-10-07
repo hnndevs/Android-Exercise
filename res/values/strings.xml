@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Android Exercise</string>
+    <string name="app_name">Android Training</string>
     <string name="hello_world">Hello world!</string>
     <string name="enter">Enter</string>
     <string name="next">Next</string>
     <string name="header">Header</string>
+    <string name="exit">Exit</string>
+    <string name="exit_confirmation">Are you sure you want to exit the application?</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
 
 </resources>
